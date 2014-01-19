@@ -1,0 +1,40 @@
+= Reproducible and automated tracking of Open Access implementation for individuals, institutions, and funders
+:toc:
+:toclevels: 5
+
+{% set references = d["references.yaml"] %}
+{% from 'paper.jinja' import cite with context %}
+
+[abstract]
+
+Open Access publication and archiving is growing rapidly and Open Access policies are being implemented around the globe. The scale of this change in scholarly communication makes monitoring progress for any given policy a challenge and the variance between policies raises challenges in building frameworks to monitor their implementation. Previous work monitoring the growth of both open access publishing [1,2] and open access archiving [2, 3,4] has been dominated by painstaking manual generation of data sets and their analysis. While this approach generates high quality data it does not scale and does not easily allow longitudinal monitoring. Here we describe the Open Access Census tool, a framework for rapidly and reproducibly generating data on the Open Access status of journal articles. The OAC allows the user to define a set of journal articles of interest, and to determine whether they are published in free to read journals, are provided under a specified license, or are available through a specified repository. We use this to measure the progress made by 20 key institutions in the UK in implementing the Research Councils UK policy on Open Access. We also provide a baseline measure of Open Access from the outputs of the European Union 7th Framework Program and show the potential for monitoring status and progress for funders, individuals and subject areas.
+
+== Introduction
+
+=== OA
+
+<<anatomy>>
+
+==== Growth of OA
+==== OA policy
+==== Challenges of measurement
+==== Balance between precision, accuracy, reproducibility, and scalability
+==== Value of an automated reporting approach
+
+=== Documentation automation
+
+== Methodology
+=== Describe the tool and how its built
+== Results
+=== UK situation
+==== Reporting on UK institutions
+=== Other examples
+==== Personal report
+==== Funder report
+==== Subject report
+=== Limitations
+== Discussion
+
+== Bibliography
+[bibliography]
+{{ cite(references, "anatomy") }}

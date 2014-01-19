@@ -1,0 +1,31 @@
+anatomy:
+    authors: Laakso and Bjork
+    year: 2012
+    type: article
+    title: "Anatomy of open access publishing: a study of longitudinal development and internal structure"
+    url: http://www.biomedcentral.com/1741-7015/10/124
+    notes: also has tables with data and a graph which are useful
+
+proportion:
+    journal: Science Metrix
+    year: 2013
+    type: report
+    title: Proportion of Open Access Peer-Reviewed Papers at the European and World Levels—2004-2011
+    url: http://www.science-metrix.com/pdf/SM_EC_OA_Availability_2004-2011.pdf
+
+green:
+    authors: Bjork, Laakso, Welling, Paetau
+    title: Anatomy of Green Open Access
+    type: article
+    url: http://www.openaccesspublishing.org/2013/04/27/anatomy-of-green-open-access/
+    notes: actually a preprint at this stage as far as I can tell
+
+green-and-gold:
+    authors: Gargouri, Lariviere, Gingras, Carr, Harnad
+    year: 2012
+    type: conference
+    title: Green and Gold Open Access percentages and growth, by discipline.
+    journal: 17th International Conference on Science and Technology Indicators (STI)
+    city: Montreal, CA
+    date: 05 - 08 Sep 2012
+    url: http://eprints.soton.ac.uk/340294/

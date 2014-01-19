@@ -1,0 +1,12 @@
+{% macro cite(references, shortcut) %}
+{% set ref = references[shortcut] %}
+[[[{{ shortcut }}]]] {{ citation(ref, shortcut) }}
+{% endmacro %}
+
+{% macro citation(ref, shortcut) %}
+{% if ref.has_key('citation') -%} {# Allow overriding citation. #}
+{{ ref.citation }}
+{% elif ref.type == "article" -%}
+{{ ref.authors }} {{ ref.year }} {{ ref.title }}
+{% endif -%}
+{% endmacro -%}
